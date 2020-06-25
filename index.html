@@ -13,6 +13,7 @@
 </head>
 
 <body>
+<div id="homeAnchor"></div>
 <div id="popup">
   <a onclick="closeWindow()">
     <img src="images/close.svg" alt="close window" id="close">
@@ -25,35 +26,49 @@
 
 
   <div id="main">
+  <div id="navbar">
+    <a href="#team">Team</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#scheduleAnchor">Schedule</a>
+    <a href="#aboutAnchor">About</a>
+    <a href="#homeAnchor" style = "padding: 0; margin: 0">
+      <img src="images/HTLNavy.png" id="logo" style = "height: 9vh;"alt="HackTheLib"/>
+    </a>
+    <a href="#rulesAnchor">Rules</a>
+    <a href="#sponsorsAnchor">Sponsors</a>
+    <a href="#judges">Judges</a>
+    <a href="#prizes">Prizes</a>
+  <div id="navbar-right">
+      
+    </div>
+  </div>
     <!-- logo here -->
 
     <div id="intro" class="intro">
       <div class="header">
-        <img class="grabathon-logo" src="images/HackTheLib_White-3.png" alt="logo" />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1 style = "color: #ffffff; font-size: 12vh">HackTheLib</h1>
-        <br/>
-        <br/>
-        <br/>
+        <br/><br/><br/>
+        <br/><br/><br/>
+        <br/><br/><br/>
+        <br/><br/><br/>
+
+        <!--img src="images/HackTheLib_White-3.svg" style = "height: 22vh; padding: 0; margin: 0"alt="HackTheLib"/-->
+        <h1 style = "color: white">HackTheLib</h1>
+        
+        <br/><br/><br/>
         <p class="jumbotron-description">July 7th ~ July 10th, 2020
           <br>📍From Your Home
         </p>
-        <a href="https://schaumburg.libnet.info/event/4394349">
+        <a href="https://forms.gle/TaBrxkGnxQ45V1TPA">
           <div id="customBtn" class="btn-grab">
-            <span class="button-text">Register now</span>
+            <span class="button-text" style="font-size: 4vh">Register now</span>
           </div>
         </a>
         <div id="jumbotron-inner" class="jumbotron-inner">
-
+          <div id="aboutAnchor"></div>
         </div>
 
       </div>
     </div>
-
     <main id="main" class="main">
       <div id="content-container" class="article card content-container">
 
@@ -121,6 +136,8 @@
               </div>
             </div>
           </section>
+
+          <div id="scheduleAnchor"></div>
 
           <!-- wavy SVG -->
           <section class="section--wavy-bg clearfix">
@@ -300,6 +317,7 @@
 <!--            </div>-->
 
           </section>
+          <div id="sponsorsAnchor"></div>
 
           <!-- wavy SVG -->
           <section class="section--wavy-bg clearfix">
@@ -367,6 +385,7 @@
 <!--                <img src="images/sponsors/twilio-logo-black.svg">-->
 <!--              </div>-->
             </div>
+            <div id="rulesAnchor"></div>
 
 
           </section>
@@ -411,48 +430,6 @@
                         Anything is welcome :)
                       </li>
                   </li>
-<!--                  <li>-->
-<!--                    Do not make any modifications on staging or production, or teams will face disqualification.-->
-<!--                  </li>-->
-<!--                  <li>-->
-<!--                    Do not use existing staging / production keys if you are using 3rd party tools like Twilio / Nexmo-->
-<!--                    / Google etc.-->
-<!--                  </li>-->
-<!--                  <li>-->
-<!--                    You can use your team's sub account for projects but-->
-<!--                    <ul>-->
-<!--                      <li>-->
-<!--                        Remember to get approval from the owner of the subaccount that you have access to. These should-->
-<!--                        be developer test sub accounts-->
-<!--                        not sub accounts like Data Engineering which has production workloads.-->
-<!--                      </li>-->
-<!--                      <li>-->
-<!--                        Remember to destroy all instances after they are used-->
-<!--                      </li>-->
-<!--                      <li>-->
-<!--                        Remember to keep the usage below $25-->
-<!--                      </li>-->
-<!--                    </ul>-->
-<!--                  </li>-->
-<!--                  <li>-->
-<!--                    Existing APIs on staging are accessible for your projects. Alternatively, you might want to check-->
-<!--                    out Marionette (<a style="text-decoration: underline;" href="http://marionette.stg-myteksi.com/">http://marionette.stg-myteksi.com/</a>)-->
-<!--                    and Marionette API-->
-<!--                    (<a style="text-decoration: underline;" href="https://wiki.grab.com/x/OB3WCg">https://wiki.grab.com/x/OB3WCg</a>)-->
-<!--                    by the-->
-<!--                    Internal Tools team.-->
-<!--                  </li>-->
-<!--                  <li>-->
-<!--                    For code sharing during hackathon, you can create a new repo at (<a style="text-decoration: underline;" href="https://gitlab.myteksi.net/engineering/grabathon/7.0">https://gitlab.myteksi.net/engineering/grabathon/7.0</a>). Do not fork any of the monorepos used in production:-->
-<!--                    <ul>-->
-<!--                      <li>-->
-<!--                        (<a style="text-decoration: underline;" href="https://gitlab.myteksi.net/gophers/go">https://gitlab.myteksi.net/gophers/go</a>)-->
-<!--                      </li>-->
-<!--                      <li>-->
-<!--                        All repos stored in (<a style="text-decoration: underline;" href="https://gitlab.myteksi.net/engineering">https://gitlab.myteksi.net/engineering</a>)-->
-<!--                      </li>-->
-<!--                    </ul>-->
-<!--                  </li>-->
                 </ol>
               </div>
 
@@ -491,7 +468,7 @@
           <!-- End of wavy SVG -->
 
           <section class="jumbotron section section--alternate section--judges">
-            <div class="container section-title">
+            <div class="container section-title" id="team">
               <h2 id="sharktank"><a id="sharktank"></a>Contact</h2>
               <a href="#sharktank">
                 <h3>Our Team</h3>
@@ -610,7 +587,7 @@
               </div>
             </div>
 
-            <div class="container container--spacing column ">
+            <div class="container container--spacing column " id="contact">
               <div class="column__cell column__left column__vertical-center">
               </div>
               <div class="column__cell column__image column__right">
@@ -632,7 +609,7 @@
     </main>
   </div>
 
-  <script src="scripts/main.min.js"></script>
+  <script src="scripts/main.js"></script>
   <script src="scripts/popup.js"></script>
 </body>
 
