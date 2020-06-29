@@ -1,3 +1,5 @@
+![HTL Logo](http://www.hackthelib.com/images/HTLNavy.png)
+
 # HackTheLib Online Website
 
 Website for the Summer 2020 HackTheLib (formerly HackSTL) hackathon! This website is a static page that is automatically deployed via Heroku.
