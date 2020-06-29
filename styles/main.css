@@ -880,9 +880,9 @@ h4 {
 }
 @font-face {
     font-family: "Sanomat Grab Web regular";
-    src: url(../fonts/"sanomat-grab-web-regular".eot);
-    src: url(../fonts/"sanomat-grab-web-regular".eot%3F) format("embedded-opentype"), url(../fonts/"sanomat-grab-web-regular".woff) format("woff"), url(../fonts/"sanomat-grab-web-regular".woff2) format("woff2"),
-        url(../fonts/"sanomat-grab-web-regular".ttf) format("truetype");
+    src: url("../fonts/sanomat-grab-web-regular.eot");
+    src: url("../fonts/sanomat-grab-web-regular.eot%3F") format("embedded-opentype"), url("../fonts/sanomat-grab-web-regular.woff") format("woff"), url("../fonts/sanomat-grab-web-regular.woff2") format("woff2"),
+        url("../fonts/sanomat-grab-web-regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
