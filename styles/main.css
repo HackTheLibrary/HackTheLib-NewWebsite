@@ -165,6 +165,7 @@ h4 {
     top: 0;
     /* At the top */
     z-index: 99;
+    outline: 2px solid #777777;
 }
 
 /* Style the navbar links */
