@@ -925,3 +925,18 @@ h4 {
         text-align: center;
     }
 }
+
+.soft-blue
+{
+    color: rgb(78, 66, 240);
+}
+
+.soft-orange
+{
+    color: rgb(236, 188, 83);
+}
+
+.soft-red
+{
+    color: rgb(201, 55, 82);
+}
