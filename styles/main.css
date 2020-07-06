@@ -83,7 +83,7 @@ li {
     margin-bottom: 1em !important;
     font-size: 20px;
 }
-ul > li {
+.container ul > li {
     list-style-type: disc;
 }
 h1,
