@@ -166,6 +166,7 @@ h4 {
     top: 0;
     /* At the top */
     z-index: 99;
+    outline: 2px solid #777777;
 }
 
 /* Style the navbar links */
@@ -925,4 +926,19 @@ h4 {
     .section--theme .column__image {
         text-align: center;
     }
+}
+
+.soft-blue
+{
+    color: rgb(78, 66, 240);
+}
+
+.soft-orange
+{
+    color: rgb(236, 188, 83);
+}
+
+.soft-red
+{
+    color: rgb(201, 55, 82);
 }
