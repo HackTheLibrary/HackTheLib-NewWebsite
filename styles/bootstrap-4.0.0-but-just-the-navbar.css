@@ -5927,7 +5927,7 @@ button.bg-dark:focus {
 
 .flex-wrap-reverse {
   flex-wrap: wrap-reverse !important;
-}
+} */
 
 .justify-content-start {
   justify-content: flex-start !important;
@@ -6017,7 +6017,7 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
   }
